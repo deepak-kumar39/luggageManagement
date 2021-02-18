@@ -1,0 +1,31 @@
+.navbar{
+    background: transparent !important;
+  }
+
+.navbar-brand{
+    font-size: 2.1rem !important;
+    color: #fff !important;
+    font-weight: bolder;
+}
+.nav-link{
+    color: #fff !important;
+}
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+    color: black !important;
+}
+
+@media(max-width : 991px){
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+}
