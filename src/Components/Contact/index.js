@@ -2,29 +2,6 @@ import React from "react";
 import {useState} from "react";
 import "../Contact/contact.css";
 function Contact() {
-  // const [data, setData] = useState({
-  //   fullname: "",
-  //   email: "",
-  //   msg: "",
-  // });
-
-  // const formSubmit = () =>{
-  //   alert("submited");
-  // }
-
-  // const InputEvent = (event) =>{
-  //   const {name,value} = event.target;
-  //   setData((prevVal)=>{
-  //     return {
-  //       ...prevVal,
-  //       [name] : value,
-  //     }
-  //   })
-
-  // }
-  // useEffect(() => {
-
-  // }, [])
   return (
     <>
       <div className="my-5">
