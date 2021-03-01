@@ -1,41 +1,5 @@
-.brand-name{
-    color:#f34e78;
-}
 
-#header{
-    width: 100%;
-    margin-bottom: 3px;
-    margin-top: 6.5rem;
-  
-}
-
-#header-text{
-    
-    margin-top: 6rem !important;
-}
-
-.btn{
-    border-radius: 50px !important;
-}
-.btn:hover{
-    background: transparent;
-    color: black;
-    font-size: large;
-    transition: 0.5s;
-}
-
-.header-img{
-    text-align: right;
-}
-#header .animated{
-    animation: up-down 1s ease-in-out infinite alternate-reverse both;
-}
-@keyframes up-down{
-    0%{
-        transform: translateY(20px);
-
-    }
-    100%{
-        transform: translateY((-20px));
-    }
+.home-section{
+    background: linear-gradient(to left , #f53e14, #cf1b99);
+    height: 100vh;
 }

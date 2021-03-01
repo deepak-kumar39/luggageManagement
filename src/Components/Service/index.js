@@ -1,16 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import "../Services/services.css";
-import Card from "../card/";
+import "../Service/services.css";
+import Card from "../Card/";
 import heavy from "../images/heavylugg.jpg";
 import ship from "../images/shipcargo.jpg";
 import small from "../images/smalllugg.jpg";
 import train from "../images/bytrain.jpg";
 function Services() {
   return (
-    <>
+    
+    <section className="service-section">
       <div className="my-5">
-        <h1 className="text-center">Services</h1>
       </div>
       <div className="container-fluid mb-5">
         <div className="row">
@@ -24,7 +24,8 @@ function Services() {
           </div>
         </div>
       </div>
-    </>
+      </section>
+    
   );
 }
 
